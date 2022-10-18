@@ -1,0 +1,567 @@
+@charset "utf-8";
+header{
+    background-color: #CBA084;
+    height: 150px;
+}* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body main section {
+    width: 800px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: auto;
+    padding: 30px;
+    margin-right: auto;
+    background-color: #4F6EC3;
+    margin-bottom: 30px;
+}
+
+
+main section h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+body header, body nav , body main, body footer{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+main {
+    padding: 30px;
+    background-color: #8FA3D9;
+}
+footer {
+    background-color: #5C8BB3;
+}
+
+
+body nav {
+    background-color: #9472A9;
+    height: 60px;
+}
+body header h1 {
+    color: #352216;
+    padding-top: 45px;
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+    font-size: 50px;
+}
+body footer h6 {
+    color: #352216;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    height: 80px;
+}
+#marcador1 {
+}
+#menu_interno {
+
+}
+#menu_interno li {
+    display: inline-block;
+    background-color: #293E79;
+    color: #C7D1EC;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 15px;
+    list-style-type: none;
+    border: 5px solid #AAB9E2;
+}
+#menu_interno li:hover {
+    width: 160px;
+    margin: 20px;
+    padding: 10px;
+    height: 50px;
+}
+
+
+#menu_interno li a {
+    width: 150px;
+    height: 40px;
+}
+
+#menu_interno li a:link {
+    color: #BECFFF;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+
+#marcador2 {
+}
+#marcador3 {
+}
+#marcador4 {
+}
+#navegacion li {
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+#navegacion li a {
+    width: 100px;
+    margin: 5px;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    background-color: #573A99;
+    border-radius: 20px;
+    list-style-type: none;
+    border: 5px solid #B6A8D5;
+    display: inline-block;
+}
+#navegacion li a:link {
+    text-decoration: none;
+    color: #DDD4F1;
+}
+#navegacion li a:hover {
+    width: 100px;
+    margin: 5px;
+    padding: 10px;
+    height: auto;
+    color: #CFC0D9;
+    font-style: oblique;
+    font-size: 20px;
+}
+#linktexto {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+#linktexto:hover {
+    color: #CAD3ED;
+    font-size: 20px;
+    background-color: #8FA3D9;
+}
+img {
+    margin: 0px;
+
+}
+#tabla_1  {
+    width: 90%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+
+}
+
+#tabla_1 thead tr th {
+    background-color: #794F33;
+    color: #FFFFFF;
+    height: 40px;
+}
+#tabla_1 tbody tr td {
+    text-align: center;
+    background-color: #DEC4B2;
+    color: hsla(223,53%,16%,1.00);
+    font-weight: 200;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    padding: 10px;
+    border-collapse: collapse;
+    height: 30px;
+
+}
+
+#tabla_1 th, #tabla_1 td {
+    border: 2px solid hsla(0,0%,100%,1.00);
+}
+.tabla_2 {
+    background-color: hsla(276,24%,73%,1.00);
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.tabla_2 th, .tabla_2 td {
+    border: 2px solid hsla(0,0%,100%,1.00);
+}
+
+
+.tabla_2 thead th {
+    color: hsla(274,25%,24%,1.00);
+    text-align: center;
+    height: 50px;
+    background-color: hsla(276,24%,56%,1.00);
+}
+
+
+.tabla_2 tbody tr td {
+    padding: 10px;
+    text-align: center;
+}
+.tabla_2 tbody tr:hover {
+    background-color: hsla(278,24%,33%,1.00);
+    color: hsla(0,0%,98%,1.00);
+}
+#tabla_3 tr:nth-child(even) {
+    background-color: hsla(208,35%,73%,1.00);
+}
+#tabla_3 tr:nth-child(odd) {
+    background-color: hsla(208,36%,51%,1.00);
+}
+#tabla_3 th {
+    background-color: hsla(207,37%,25%,1.00);
+    color: hsla(0,0%,100%,1.00);
+    text-align: center;
+    width: 185px;
+    height: 40px;
+}
+.celda_centrada {
+    text-align: center;
+}
+
+#tabla_3 {
+    text-align: left;
+    margin-top: 30px;
+    width: 740px;
+}
+#tabla_3 td {
+    width: 185px;
+}
+#tabla_4 {
+    width: 1000px;
+    border-collapse: collapse;
+}
+#tabla_4 th  {
+    background-color: hsla(343,41%,27%,1.00);
+    color: hsla(343,38%,89%,1.00);
+}
+
+#tabla_4 tr:nth-child(even) {
+    background-color: hsla(343,40%,56%,1.00);
+}
+#tabla_4 tr:nth-child(odd) {
+    background-color: hsla(344,39%,79%,1.00);
+}
+
+
+#tabla_4 th, #tabla_4 td {
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    border-width: 0;
+}
+.overflow_x {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+#img2 {
+    width: 50%;
+    height: 50%;
+    padding-top: 15px;
+
+}
+.imagen_flotante {
+    width: 35%;
+    height: 35%;
+    border-radius: 30px;
+}
+#img_flotante_der {
+    float: right;
+    padding-left: 10px;
+}
+main section p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: justify;
+}
+
+#img_flotante_izq {
+    float: left;
+    padding-right: 10px;
+    padding-top: 6px;
+}
+#img1 {
+    padding-top: 15px;
+}
+.parrafo_flotantes {
+    text-align: justify;
+}
+#bg_img_1 {
+    background-image: url(../imagenes/mexico_2021.jpg);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    background-size: 130%
+% auto;
+    background-repeat: no-repeat;
+    background-size: 130% auto;
+    background-position: 50% 50%;
+    color: #FFFFFF;
+}
+.img3 {
+    width: 30%;
+
+
+
+
+
+    height: 25%
+%;
+    margin: 5px;
+    height: 30%;
+}
+#filtro_bn {
+    filter: grayscale(100%);
+}
+#filtro_invert {
+    filter: invert(100%);
+}
+#filtro_blur {
+    filter: blur(2px);
+}
+#filtro_brillo {
+    filter: brightness(200%);
+}
+#filtro_contraste {
+    filter: contrast(200%);
+}
+#filtro_opacidad {
+    filter: opacity(40%);
+}
+#filtro_saturacion {
+    filter: saturate(300%);
+
+}
+#filtro_sepia {
+    filter: sepia(200%);
+}
+.img4 {
+    width: 60%;
+    height: 60%;
+    filter: drop-shadow(10px 10px 10px black);
+    padding-top: 15px;
+}
+.logobuap {
+
+}
+.logobuap:hover {
+    width: 380px;
+    height: 193px;
+    border-radius: 15px;
+    border: 5px solid #0D6D86;
+}
+#video_1 {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.video_2 {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#form1 label {
+    color: #CBA084;
+    font-size: 16px;
+}
+input[type=text]   {
+    color: #8FA3D9;
+}
+input[type=submit] {
+    width: 150px;
+    height: 30px;
+    background-color: #9472A9;
+    font-weight: bold;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#form2 {
+    width: 60%;
+    height: auto;
+    background-color: #CBA084;
+    border: 3px solid #5F3D28;
+    margin-left: auto;
+    padding: 20px;
+    margin-right: auto;
+    margin-top: 20px;
+}
+#form2 table {
+}
+
+#form2 #submit2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #8FA3D9;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#form2 select {
+    background-color: #606060;
+    color: #FFFFFF;
+}
+
+.tabla_centrada {
+    margin-left: auto;
+    margin-right: auto;
+}
+#form4 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #CD9091;
+    border: 8px dotted #743435;
+}
+textarea   {
+    width: 100%;
+    height: 100px;
+    background-color: #EDD8D9;
+    color: #085E0C;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    padding: 10px;
+    margin-left: 0px;
+}
+#form4 #email {
+    width: 100%;
+}
+.boton_centrado {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+}
+#form4 .boton_centrado {
+    background-color: #5C8BB3;
+}
+
+#form4 label {
+    color: #7A9FC0;
+    font-weight: bold;
+}
+#form4 #email {
+    background-color: #EDD8D9;
+    color: #085E0C;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: italic;
+}
+#form4 #textarea  {
+    background-color: #EDD8D9;
+    color: #085E0C;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#pais {
+}
+.formulario_inputs {
+    width: auto;
+    height: auto;
+    background-color: #9C76A7;
+    border: 5px dashed #4E3654;
+    border-radius: 40px;
+}
+.frame_input {
+    background-color: #CFBDD4;
+    color: #FFFFFF;
+    width: 30%;
+}
+.label_inputs {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.p_inputs {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#submit3 {
+    background-color: #25396E;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.agradecimiento {
+    text-align: center;
+    font-size: xx-large;
+    color: #DAE1F2;
+    font-weight: bolder;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.agradecimiento_p {
+    text-align: center;
+    color: #19274B;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+}
+.imagen_agradecimiento {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    height: auto;
+}
+.h4_formulario {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #2E4B63;
+    width: 25%;
+    margin: auto;
+    height: 30px;
+    border-radius: 8px;
+    padding-top: 4px;
+    border: medium solid hsla(206,37%,18%,1.00);
+}
+.h4_formulario:hover {
+    width: 30%;
+    height: 35px;
+    font-size: large;
+    padding-top: 5px;
+    background-color: #5889B1;
+}
+
+.h4_link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.imagen_frida {
+    float: right;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+#parrafo {
+    text-align: justify;
+    color: hsla(0,0%,0%,1.00);
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}

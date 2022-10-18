@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Audio</title>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Audio en HTML</h1>
+	</header>
+ <nav id="navegacion"> 
+<ul id="menu">
+<li><a href="../index.html">Inicio</a></li>
+<li><a href="formatos_texto.html">Formatos</a></li>
+<li><a href="listas.html">Listas</a></li>
+<li><a href="tablas.html" target="new">Tablas</a></li>
+<li><a href="enlaces.html">Enlaces</a></li>
+<li><a href="imagenes.html">Imagenes</a></li>
+<li><a href="audio.html">Audios</a></li>
+<li><a href="videos.html">Videos</a></li>
+<li><a href="formularios.html">Formulario</a></li>
+	</ul>
+</nav>
+  <main>
+    <section>
+      <h2>Audio desde codificación de HTML</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam qui corporis architecto dicta facilis eligendi, facere provident quisquam beatae, excepturi. </p>
+		<audio controls>
+		<source src="../audios/audio_1.mp3" type="audio/mp3">
+		Tu navegador no es compatible con el formato audio mp3.
+		</audio>
+    </section>
+    <section>
+      <h2>Audio desde Dreamweaver con Mute y Autoplay</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam qui corporis architecto dicta facilis eligendi, facere provident quisquam beatae, excepturi. </p>
+      <audio controls="controls" muted="muted" autoplay="autoplay" >
+        <source src="../audios/audio_2.mp3" type="audio/mp3">
+      </audio>
+    </section>
+    <section>
+      <h2>Audio con reproducción cíclica (loop)</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam qui corporis architecto dicta facilis eligendi, facere provident quisquam beatae, excepturi. </p>
+      <audio controls="controls" muted="muted" autoplay="autoplay" loop="loop" >
+        <source src="../audios/audio_3.mp3">
+      </audio>
+    </section>
+    <section>
+      <h2>Audios desde repositorio (Ivoox)</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam qui corporis architecto dicta facilis eligendi, facere provident quisquam beatae, excepturi. </p>
+	<iframe id='audio_53769246' frameborder='0' allowfullscreen='' scrolling='no' height='200' style='width:100%;' src='https://www.ivoox.com/player_ej_53769246_6_1.html' loading='lazy'></iframe>
+    </section>
+</main>
+  <footer>
+    <h6>Elaborado por Frida Rojas Meza</h6>
+</footer>
+
+</body>
+</html>

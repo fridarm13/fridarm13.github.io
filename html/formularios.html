@@ -1,0 +1,157 @@
+		<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formularios</title>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Formularios en HTML</h1>
+	</header>
+ <nav id="navegacion"> 
+<ul id="menu">
+<li><a href="../index.html">Inicio</a></li>
+<li><a href="formatos_texto.html">Formatos</a></li>
+<li><a href="listas.html">Listas</a></li>
+<li><a href="tablas.html" target="new">Tablas</a></li>
+<li><a href="enlaces.html">Enlaces</a></li>
+<li><a href="imagenes.html">Imagenes</a></li>
+<li><a href="audio.html">Audios</a></li>
+<li><a href="videos.html">Videos</a></li>
+<li><a href="formularios.html">Formulario</a></li>
+	</ul>
+</nav>
+  <main>
+    <section>
+      <h2>Formulario 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque quaerat maxime quisquam, eum at labore, dignissimos expedita veniam accusantium esse architecto commodi quod eligendi sed aspernatur! Laborum officiis tempore magnam.</p>
+      <form action="procesamiento.html" method="get" name="form1" id="form1">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido">
+        <input name="submit" type="submit" id="submit" formaction="procesamiento.html" value="Enviar">
+      </form>
+    </section>
+    <section>
+      <h2>Formulario con radiobutton</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque quaerat maxime quisquam, eum at labore, dignissimos expedita veniam accusantium esse architecto commodi quod eligendi sed aspernatur! Laborum officiis tempore magnam.</p>
+      <form action="procesamiento.html" method="get" name="form2" id="form2">
+        <label>Elige tu género:</label>
+        <table width="200" class="celda_centrada tabla_centrada">
+          <tr>
+            <td><label>
+              <input type="radio" name="G&eacute;nero" value="Femenino" id="Geacutenero_0">
+              Femenino</label></td>
+          </tr>
+          <tr>
+            <td><label>
+              <input type="radio" name="G&eacute;nero" value="Masculino" id="Geacutenero_1">
+              Masculino</label></td>
+          </tr>
+        </table>
+		  <br>
+        <label for="select">¿De qué país eres?:</label>
+        <select name="select" id="pais">
+          <option value="Mex">México</option>
+          <option value="Aus">Austria</option>
+          <option value="Bra">Brasil</option>
+          <option value="Gre">Grecia</option>
+          <option value="Por">Portugal</option>
+        </select>
+        <p>
+			<br>
+          <label>¿Dónde se hospedará?</label>
+          <label>
+			  <br>
+            <input type="checkbox" name="residencia" value="domicilio_particular" id="residencia_0">
+            Casa de un amigo/familiar</label>
+          <br>
+          <label>
+            <input type="checkbox" name="residencia" value="hotel" id="residencia_1">
+            Hotel</label>
+          <br>
+          <label>
+            <input type="checkbox" name="residencia" value="airbnb" id="residencia_2">
+            Airbnb</label>
+          <br>
+        </p>
+<input name="submit2" type="submit" id="submit2" formaction="procesamiento.html" value="Enviar">
+        
+      </form>
+</section>
+    <section>
+      <h2>Formulario 5 inputs distintos</h2>
+		<section class="formulario_inputs">
+  <form action="procesamiento.html">
+  <label for="fname" class="label_inputs">Nombres:</label><br>
+  <input name="fname" type="text" class="frame_input" value=""><br>
+  <label for="lname" class="label_inputs">Apellidos:</label><br>
+  <input name="lname" type="text" class="frame_input" value=""><br><br>
+	
+	
+  <label for="birthday" class="label_inputs">¿Desde cuándo conoces a Taylor Swift?:</label><br>
+  <input name="birthday" type="date" class="frame_input">
+			
+		<br>
+		<p class="p_inputs">¿Cuál es tu album favorito de Taylor Swfit?</p>
+		
+	  
+		<input type="radio" name="radio" id="radio" value="radio">
+        <label for="radio">Taylor Swift (Debut)</label><br>
+        <input type="radio" name="radio2" id="radio2" value="radio2">
+        <label for="radio2">Fearless (Taylor's Version)</label><br>
+        <input type="radio" name="radio3" id="radio3" value="radio3">
+        <label for="radio3">Speak Now </label><br>
+        <input type="radio" name="radio4" id="radio4" value="radio4">
+        <label for="radio4">Red (Taylor's Version)</label><br>
+	    <input type="radio" name="radio5" id="radio5" value="radio5">
+        <label for="radio5">reputation</label><br>
+		 <input type="radio" name="radio6" id="radio6" value="radio6">
+        <label for="radio6">1989</label><br>
+		 <input type="radio" name="radio7" id="radio7" value="radio7">
+        <label for="radio7">Lover</label><br>
+		<input type="radio" name="radio8" id="radio8" value="radio8">
+        <label for="radio8">folklore</label><br>
+		  <input type="radio" name="radio9" id="radio9" value="radio9">
+        <label for="radio9">evermore</label><br>
+		  <input type="radio" name="radio10" id="radio10" value="radio10">
+        <label for="radio10">Midnights</label><br>
+	  <br>
+		
+		<p class="p_inputs">Escribe tu correro y teléfono para resivir información de próximos eventos de la cantante</p><br>
+		<label for="email2">Email:</label>
+        <input name="email2" type="email" class="frame_input"><br><br>
+        <label for="tel">Celular:</label>
+        <input name="tel" type="tel" class="frame_input"><br><br><br>
+        <input name="submit3" type="submit" id="submit3" formaction="procesamiento.html" formmethod="POST" value="Enviar">
+		</form>
+		</section>
+		
+    </section>
+		
+    <section>
+      <h2>Formulario de Contacto</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio inventore eligendi harum temporibus dolores est quibusdam, tempore cupiditate debitis repellendus, in ut deserunt corporis officiis pariatur tempora. Distinctio, quas, tempore!</p>
+      <form action="procesamiento.html" method="get" name="form3" id="form4">
+        <label for="email">Email:</label>
+        <strong>
+        <input type="email" name="email" id="email">
+        </strong> <br>
+		 <br>
+        <label for="comentario">Comentario:</label>
+        <textarea name="comentario" maxlength="200" id="comentario">Escribe aquí tu comentario...</textarea>
+        <input name="boton3" type="submit" class="boton_centrado" id="boton3" formaction="procesamiento.html" value="Enviar">
+        
+      </form>
+    </section>
+</main>
+  <footer>
+    <h6>Elaborado por Frida Rojas Meza</h6>
+</footer>
+
+</body>
+</html>
